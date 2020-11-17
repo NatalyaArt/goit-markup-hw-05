@@ -83,6 +83,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .site-nav .link:hover,
@@ -123,6 +125,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .contacts-nav a:hover,
@@ -130,6 +134,10 @@ body {
   color: var(--accent-color);
 }
 
+.icon-link {
+  display: flex;
+  align-items: center;
+} 
 .icon-envelope {
   width: 16px;
   height: 12px;
@@ -412,6 +420,8 @@ img {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .social-item:not(:last-child) {
@@ -454,6 +464,8 @@ img {
   border-radius: 4px;
   align-items: center;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .clients-title:last-child {
@@ -550,6 +562,8 @@ img {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .footer-socials-link:hover,
@@ -599,6 +613,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   border: 1px solid transparent;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .btn-filter:hover,
@@ -661,6 +677,7 @@ img {
   content: "";
   width: 100%;
   height: 100%;
+  
 }
 
 .overlay-text {
